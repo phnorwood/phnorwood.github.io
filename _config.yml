@@ -1,9 +1,9 @@
 # Site Settings
-title: Your Name
-tagline: Software Developer & Designer
-description: A minimalist portfolio showcasing my work and writing
-author: Your Name
-email: your.email@example.com
+title: Patrick Norwood
+tagline: Senior Sales Engineer | Cloud Security & Privileged Access & IAM | MS, CISSP
+description: Portfolio of Patrick Norwood - Senior Sales Engineer specializing in Cloud Security, Privileged Access Management, and Identity & Access Management.
+author: Patrick Norwood
+#email: patrick.norwood@example.com
 url: "https://phnorwood.github.io"
 baseurl: ""
 
@@ -55,7 +55,7 @@ plugins:
 
 # Social Media
 github_username: phnorwood
-linkedin_username: yourname
+linkedin_username: phnorwood
 
 # Navigation Links
 navigation:
