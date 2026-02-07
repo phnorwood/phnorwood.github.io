@@ -1,0 +1,107 @@
+// CSS Reset & Base Styles
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $color-text;
+  background-color: $color-background;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  line-height: $line-height-heading;
+  font-weight: 600;
+  color: $color-text;
+  margin-bottom: $space-md;
+}
+
+h1 { font-size: $font-size-4xl; }
+h2 { font-size: $font-size-3xl; }
+h3 { font-size: $font-size-2xl; }
+h4 { font-size: $font-size-xl; }
+h5 { font-size: $font-size-lg; }
+h6 { font-size: $font-size-base; }
+
+p {
+  margin-bottom: $space-md;
+}
+
+a {
+  color: $color-text;
+  text-decoration: none;
+  border-bottom: 1px solid $color-border;
+  transition: border-color $transition-base;
+
+  &:hover,
+  &:focus {
+    border-bottom-color: $color-text;
+  }
+}
+
+ul, ol {
+  margin-left: $space-lg;
+  margin-bottom: $space-md;
+}
+
+li {
+  margin-bottom: $space-xs;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+code {
+  font-family: $font-family-mono;
+  font-size: 0.9em;
+  background-color: $color-background-alt;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+pre {
+  font-family: $font-family-mono;
+  font-size: 0.9em;
+  background-color: $color-background-alt;
+  padding: $space-md;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin-bottom: $space-md;
+
+  code {
+    background: none;
+    padding: 0;
+  }
+}
+
+blockquote {
+  border-left: 3px solid $color-border;
+  padding-left: $space-md;
+  margin-left: 0;
+  margin-bottom: $space-md;
+  color: $color-text-light;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $color-border;
+  margin: $space-2xl 0;
+}

@@ -1,0 +1,75 @@
+// Responsive Design
+
+// Mobile
+@media (max-width: $breakpoint-sm) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding-left: $space-md;
+    padding-right: $space-md;
+  }
+
+  .hero {
+    h1 {
+      font-size: $font-size-3xl;
+    }
+
+    .tagline {
+      font-size: $font-size-lg;
+    }
+
+    .bio {
+      font-size: $font-size-base;
+    }
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  section {
+    padding: $space-2xl 0;
+  }
+
+  .site-footer {
+    .footer-content {
+      flex-direction: column;
+      gap: $space-md;
+      text-align: center;
+    }
+  }
+
+  .post-footer {
+    .post-navigation {
+      flex-direction: column;
+
+      a {
+        max-width: 100%;
+        text-align: left !important;
+      }
+    }
+  }
+
+  .blog-archive {
+    .archive-item {
+      flex-direction: column;
+      gap: $space-xs;
+    }
+  }
+}
+
+// Tablet
+@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Large Desktop
+@media (min-width: $breakpoint-xl) {
+  html {
+    font-size: 18px;
+  }
+}

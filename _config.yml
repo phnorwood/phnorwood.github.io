@@ -1,0 +1,69 @@
+# Site Settings
+title: Your Name
+tagline: Software Developer & Designer
+description: A minimalist portfolio showcasing my work and writing
+author: Your Name
+email: your.email@example.com
+url: "https://phnorwood.github.io"
+baseurl: ""
+
+# Build Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+# Pagination (for blog)
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Social Media
+github_username: phnorwood
+linkedin_username: yourname
+
+# Navigation Links
+navigation:
+  - title: About
+    url: "#about"
+  - title: Projects
+    url: "#projects"
+  - title: Blog
+    url: "#blog"
+  - title: Contact
+    url: "#contact"

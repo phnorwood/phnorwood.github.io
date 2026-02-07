@@ -1,0 +1,33 @@
+// Layout System
+.container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+}
+
+main {
+  min-height: calc(100vh - 200px);
+}
+
+section {
+  padding: $space-3xl 0;
+
+  &:nth-child(even) {
+    background-color: $color-background-alt;
+  }
+}
+
+// Grid System
+.grid {
+  display: grid;
+  gap: $space-lg;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
