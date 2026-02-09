@@ -8,9 +8,9 @@ Raleigh-Durham-Chapel Hill Area, NC, USA
 
 | | | |
 |---|---|---|
-| Solution Architecture | Infrastructure as Code | Account Strategy |
-| Technical Discovery | Privileged Access | Technical Narrative |
-| Stakeholder Engagement | Hybrid Cloud | Value Messaging |
+| - Solution Architecture | - Infrastructure as Code | - Account Strategy |
+| - Technical Discovery | - Privileged Access | - Technical Narrative |
+| - Stakeholder Engagement | - Hybrid Cloud | - Value Messaging |
 
 ---
 
