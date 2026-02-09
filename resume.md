@@ -6,15 +6,11 @@ Raleigh-Durham-Chapel Hill Area, NC, USA
 
 ## Skills
 
-- Solution Architecture
-- Technical Discovery
-- Stakeholder Engagement
-- Infrastructure as Code
-- Privileged Access
-- Hybrid Cloud
-- Account Strategy
-- Technical Narrative
-- Value Messaging
+| | | |
+|---|---|---|
+| Solution Architecture | Infrastructure as Code | Account Strategy |
+| Technical Discovery | Privileged Access | Technical Narrative |
+| Stakeholder Engagement | Hybrid Cloud | Value Messaging |
 
 ---
 
