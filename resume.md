@@ -63,10 +63,10 @@ Solution Architecture | Technical Discovery | Stakeholder Engagement | Infrastru
 
 ## Certification
 
-- ISC2 Certified Information Systems Security Professional (CISSP)
-- Red Hat Certified Professional
-- HashiCorp Certified Terraform Associate
-- HashiCorp Certified Vault Associate
+-ISC2 <a href="https://www.credly.com/badges/5a8a969c-db0c-448c-b6be-2ae494cd58a4" target="_blank" rel="noopener" aria-label="CISSP">Certified Information Systems Security Professional (CISSP)</a>
+-Red Hat Certified Professional (Certification ID# <a href="https://rhtapps.redhat.com/verify?certId=190-222-372" target="_blank" rel="noopener" aria-label="Red Hat Certification">190-222-372</a>)
+- HashiCorp <a href="https://www.credly.com/badges/77193254-9901-4b0e-a96e-79fc3191f99e" target="_blank" rel="noopener" aria-label="HCP Terraform">Certified Terraform Associate</a><i>(expired)</i>
+- HashiCorp <a href="https://www.credly.com/badges/a6455a19-e780-46d3-9542-233f80f43c55" target="_blank" rel="noopener" aria-label="HCP Vault">Certified Vault Associate</a><i>(expired)</i>
 
 ---
 
