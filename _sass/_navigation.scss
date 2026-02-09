@@ -91,6 +91,27 @@
   }
 }
 
+.nav-social {
+  display: flex;
+  gap: $space-md;
+
+  a {
+    border: none;
+    padding: $space-xs;
+    color: rgba(255, 255, 255, 0.5);
+    transition: color $transition-base;
+
+    &:hover {
+      background: none;
+      color: $color-yellow;
+    }
+
+    svg {
+      display: block;
+    }
+  }
+}
+
 // Mobile Navigation
 @media (max-width: $breakpoint-md) {
   .nav-toggle {
@@ -111,5 +132,9 @@
     &.active {
       display: flex;
     }
+  }
+
+  .nav-social {
+    display: none;
   }
 }

@@ -6,7 +6,15 @@ Raleigh-Durham-Chapel Hill Area, NC, USA
 
 ## Skills
 
-Solution Architecture | Technical Discovery | Stakeholder Engagement | Infrastructure as Code | Privileged Access | Hybrid Cloud | Account Strategy | Technical Narrative | Value Messaging
+- Solution Architecture
+- Technical Discovery
+- Stakeholder Engagement
+- Infrastructure as Code
+- Privileged Access
+- Hybrid Cloud
+- Account Strategy
+- Technical Narrative
+- Value Messaging
 
 ---
 
@@ -15,9 +23,9 @@ Solution Architecture | Technical Discovery | Stakeholder Engagement | Infrastru
 **Delinea** — Senior Sales Engineer
 *Apr. 2025 – Present*
 
-- Partner with multiple Account Managers (1:3 ratio) across 60+ enterprise accounts
+- Partner with multiple Account Managers (1:3 ratio) covering regional enterprise accounts
 - Lead technical discovery and deliver Proof of Concept engagements
-- Drive pipeline development through upsell and cross-sell motions ($25K–$150K+ ACV)
+- Drive pipeline development through upsell and cross-sell motions
 - Trusted technical advisor aligning solutions to customer risk, compliance, and operational requirements
 
 **Career Break** — Travel
@@ -63,8 +71,8 @@ Solution Architecture | Technical Discovery | Stakeholder Engagement | Infrastru
 
 ## Certification
 
--ISC2 <a href="https://www.credly.com/badges/5a8a969c-db0c-448c-b6be-2ae494cd58a4" target="_blank" rel="noopener" aria-label="CISSP">Certified Information Systems Security Professional (CISSP)</a>
--Red Hat Certified Professional (Certification ID# <a href="https://rhtapps.redhat.com/verify?certId=190-222-372" target="_blank" rel="noopener" aria-label="Red Hat Certification">190-222-372</a>)
+- ISC2 <a href="https://www.credly.com/badges/5a8a969c-db0c-448c-b6be-2ae494cd58a4" target="_blank" rel="noopener" aria-label="CISSP">Certified Information Systems Security Professional (CISSP)</a>
+- Red Hat Certified Professional (Certification ID# <a href="https://rhtapps.redhat.com/verify?certId=190-222-372" target="_blank" rel="noopener" aria-label="Red Hat Certification">190-222-372</a>)
 - HashiCorp <a href="https://www.credly.com/badges/77193254-9901-4b0e-a96e-79fc3191f99e" target="_blank" rel="noopener" aria-label="HCP Terraform">Certified Terraform Associate</a><i>(expired)</i>
 - HashiCorp <a href="https://www.credly.com/badges/a6455a19-e780-46d3-9542-233f80f43c55" target="_blank" rel="noopener" aria-label="HCP Vault">Certified Vault Associate</a><i>(expired)</i>
 
@@ -72,5 +80,5 @@ Solution Architecture | Technical Discovery | Stakeholder Engagement | Infrastru
 
 ## Education
 
-- **Northeastern University** — M.S. Applied Nutrition, 3.8 GPA
-- **Wentworth Institute of Technology** — B.S. Computer Information Systems, 3.7 GPA
+- **Northeastern University** — M.S. Applied Nutrition
+- **Wentworth Institute of Technology** — B.S. Computer Information Systems
