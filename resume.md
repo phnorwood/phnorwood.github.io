@@ -1,0 +1,76 @@
+# Patrick Norwood
+
+Raleigh-Durham-Chapel Hill Area, NC, USA
+
+---
+
+## Skills
+
+Solution Architecture | Technical Discovery | Stakeholder Engagement | Infrastructure as Code | Privileged Access | Hybrid Cloud | Account Strategy | Technical Narrative | Value Messaging
+
+---
+
+## Experience
+
+**Delinea** — Senior Sales Engineer
+*Apr. 2025 – Present*
+
+- Partner with multiple Account Managers (1:3 ratio) across 60+ enterprise accounts
+- Lead technical discovery and deliver Proof of Concept engagements
+- Drive pipeline development through upsell and cross-sell motions ($25K–$150K+ ACV)
+- Trusted technical advisor aligning solutions to customer risk, compliance, and operational requirements
+
+**Career Break** — Travel
+*Sep. 2024 – Feb. 2025*
+
+- Lived, traveled, and studied abroad: Hong Kong SAR, Singapore, and China
+
+**HashiCorp** — Senior Solutions Engineer
+*Jul. 2022 – Aug. 2024*
+
+- Led pre-sales engineering for Fortune 500 strategic accounts
+- Conducted technical discovery, developed solution architectures, and articulated value propositions
+- Subject matter expert for Terraform and Vault
+- Supported sales campaigns through architectural guidance, demos, workshops, and executive discussions
+
+**Red Hat** — Senior Solutions Architect
+*Aug. 2019 – Jul. 2022*
+
+- Designed solutions aligned to Fortune 500 customer technical and business requirements
+- Delivered technical presentations for RHEL and Ansible Automation, leading to multiple six-figure deals
+- Technical advisor throughout sales lifecycle, from discovery through solution validation
+
+**Mass General Brigham** — Infrastructure Manager
+*Jan. 2018 – May 2019*
+
+- Managed a team of infrastructure engineers supporting an AI/ML-focused research organization
+- Designed and operated hybrid infrastructure spanning network, storage, compute, and identity management
+- Translated research requirements into scalable technical solutions
+
+**Mass General Brigham** — Systems Engineer
+*Dec. 2015 – Jan. 2018*
+
+- Managed enterprise data center environments supporting HIPAA-compliant workloads
+- Designed and implemented custom REST APIs to reduce overhead and improve security
+
+**Massachusetts General Hospital** — Archive Specialist
+*Feb. 2013 – Dec. 2015*
+
+- Managed 2+ PB of HIPAA-compliant Protected Health Information
+- Automated data integrity checks and access control workflows, reclaiming 8+ FTE hours/week
+
+---
+
+## Certification
+
+- ISC2 Certified Information Systems Security Professional (CISSP)
+- Red Hat Certified Professional
+- HashiCorp Certified Terraform Associate
+- HashiCorp Certified Vault Associate
+
+---
+
+## Education
+
+- **Northeastern University** — M.S. Applied Nutrition, 3.8 GPA
+- **Wentworth Institute of Technology** — B.S. Computer Information Systems, 3.7 GPA

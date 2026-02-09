@@ -62,6 +62,10 @@
       gap: $space-xs;
     }
   }
+
+  .resume-columns {
+    grid-template-columns: 1fr;
+  }
 }
 
 // Tablet

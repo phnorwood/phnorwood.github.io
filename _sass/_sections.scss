@@ -239,6 +239,101 @@
   }
 }
 
+// Resume Section
+.section-resume {
+  background-color: $color-background-alt;
+
+  h2 {
+    text-align: left;
+    margin-bottom: $space-md;
+  }
+
+  h3 {
+    font-size: $font-size-xl;
+    margin-bottom: $space-lg;
+    padding-bottom: $space-sm;
+    border-bottom: 3px solid $color-black;
+  }
+}
+
+.resume-download {
+  margin-bottom: $space-2xl;
+
+  a {
+    font-size: $font-size-sm;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: $color-black;
+    border-bottom: 2px solid $color-yellow;
+
+    &:hover {
+      background-color: $color-yellow;
+    }
+  }
+}
+
+.resume-body {
+  max-width: 800px;
+}
+
+.resume-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-xs;
+  margin-bottom: $space-lg;
+}
+
+.resume-block {
+  margin-bottom: $space-2xl;
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+
+    li {
+      padding-left: 0;
+      margin-bottom: $space-xs;
+      color: $color-text-light;
+      font-size: $font-size-base;
+    }
+  }
+}
+
+.resume-entry {
+  margin-bottom: $space-xl;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.resume-entry-header {
+  margin-bottom: $space-sm;
+  font-size: $font-size-base;
+  text-transform: none;
+  line-height: 1.4;
+
+  strong {
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+}
+
+.resume-date {
+  display: block;
+  font-size: $font-size-sm;
+  color: $color-text-light;
+  margin-top: 0.25rem;
+}
+
+.resume-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-xl;
+}
+
 // Blog Archive Page
 .blog-archive {
   padding: calc($space-3xl + 80px) 0 $space-3xl;
