@@ -61,8 +61,8 @@ linkedin_username: phnorwood
 navigation:
   - title: About
     url: "#about"
-  #- title: Projects
-  #  url: "#projects"
+  - title: Projects
+    url: "#projects"
   #- title: Blog
   #  url: "#blog"
   - title: Contact
