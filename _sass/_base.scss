@@ -42,14 +42,14 @@ p {
 }
 
 a {
-  color: $color-text;
+  color: $color-accent;
   text-decoration: none;
-  border-bottom: 1px solid $color-border;
-  transition: border-color $transition-base;
+  border-bottom: 1px solid transparent;
+  transition: border-color $transition-base, color $transition-base;
 
   &:hover,
   &:focus {
-    border-bottom-color: $color-text;
+    border-bottom-color: $color-accent;
   }
 }
 

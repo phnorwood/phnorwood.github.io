@@ -4,9 +4,9 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba($color-dark, 0.95);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid $color-border;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   z-index: 1000;
 }
 
@@ -22,10 +22,13 @@
 .nav-logo {
   font-size: $font-size-lg;
   font-weight: 600;
+  color: $color-text-on-dark;
   border: none;
+  letter-spacing: 0.05em;
 
   &:hover {
     border: none;
+    color: $color-accent-light;
   }
 }
 
@@ -42,7 +45,7 @@
     display: block;
     width: 24px;
     height: 2px;
-    background-color: $color-text;
+    background-color: $color-text-on-dark;
     transition: all $transition-base;
   }
 }
@@ -57,6 +60,8 @@
     border: none;
     padding: $space-xs 0;
     position: relative;
+    color: $color-text-on-dark-muted;
+    transition: color $transition-base;
 
     &::after {
       content: '';
@@ -64,9 +69,14 @@
       bottom: 0;
       left: 0;
       width: 0;
-      height: 1px;
-      background-color: $color-text;
+      height: 2px;
+      background-color: $color-accent;
       transition: width $transition-base;
+    }
+
+    &:hover,
+    &.active {
+      color: $color-text-on-dark;
     }
 
     &:hover::after,
@@ -88,8 +98,8 @@
     left: 0;
     right: 0;
     flex-direction: column;
-    background-color: $color-background;
-    border-bottom: 1px solid $color-border;
+    background-color: $color-dark;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     padding: $space-md $container-padding;
     gap: $space-md;
     display: none;

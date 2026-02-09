@@ -12,10 +12,6 @@ main {
 
 section {
   padding: $space-3xl 0;
-
-  &:nth-child(even) {
-    background-color: $color-background-alt;
-  }
 }
 
 // Grid System
