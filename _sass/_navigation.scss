@@ -4,9 +4,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba($color-dark, 0.95);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: $color-black;
   z-index: 1000;
 }
 
@@ -21,21 +19,23 @@
 
 .nav-logo {
   font-size: $font-size-lg;
-  font-weight: 600;
-  color: $color-text-on-dark;
+  font-weight: 900;
+  color: $color-yellow;
   border: none;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 
   &:hover {
     border: none;
-    color: $color-accent-light;
+    background: none;
+    color: #ffffff;
   }
 }
 
 .nav-toggle {
   display: none;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
   background: none;
   border: none;
   cursor: pointer;
@@ -45,7 +45,7 @@
     display: block;
     width: 24px;
     height: 2px;
-    background-color: $color-text-on-dark;
+    background-color: #ffffff;
     transition: all $transition-base;
   }
 }
@@ -60,7 +60,11 @@
     border: none;
     padding: $space-xs 0;
     position: relative;
-    color: $color-text-on-dark-muted;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: $font-size-sm;
+    letter-spacing: 0.08em;
     transition: color $transition-base;
 
     &::after {
@@ -69,14 +73,15 @@
       bottom: 0;
       left: 0;
       width: 0;
-      height: 2px;
-      background-color: $color-accent;
+      height: 3px;
+      background-color: $color-yellow;
       transition: width $transition-base;
     }
 
     &:hover,
     &.active {
-      color: $color-text-on-dark;
+      color: #ffffff;
+      background: none;
     }
 
     &:hover::after,
@@ -98,8 +103,7 @@
     left: 0;
     right: 0;
     flex-direction: column;
-    background-color: $color-dark;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: $color-black;
     padding: $space-md $container-padding;
     gap: $space-md;
     display: none;

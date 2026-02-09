@@ -17,12 +17,16 @@
     }
 
     .tagline {
-      font-size: $font-size-lg;
+      font-size: $font-size-base;
     }
 
     .bio {
       font-size: $font-size-base;
     }
+  }
+
+  h2 {
+    font-size: $font-size-2xl;
   }
 
   .projects-grid {

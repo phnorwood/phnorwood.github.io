@@ -1,34 +1,29 @@
-// Color Palette
-$color-dark: #1e2d3e;
-$color-dark-mid: #2a3f54;
-$color-text: #2c3e50;
-$color-text-light: #6b839a;
-$color-text-on-dark: #dce4ec;
-$color-text-on-dark-muted: #9bb0c4;
-$color-border: #dfe6ed;
+// Color Palette — Bauhaus-inspired
+$color-black: #000000;
+$color-text: #111111;
+$color-text-light: #555555;
+$color-text-on-yellow: #111111;
+$color-border: #e0e0e0;
 $color-background: #ffffff;
-$color-background-alt: #f5f8fb;
-
-// Accent
-$color-accent: #4a90c4;
-$color-accent-light: #6daed4;
-$color-accent-glow: rgba(74, 144, 196, 0.12);
+$color-background-alt: #f2f2f2;
+$color-yellow: #FFC800;
+$color-yellow-hover: #e6b400;
 
 // Typography
 $font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 $font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
-// Type Scale (1.25 - Minor Third)
+// Type Scale — oversized for impact
 $font-size-base: 1rem;        // 16px
 $font-size-sm: 0.875rem;      // 14px
 $font-size-lg: 1.25rem;       // 20px
 $font-size-xl: 1.563rem;      // 25px
 $font-size-2xl: 1.953rem;     // 31px
-$font-size-3xl: 2.441rem;     // 39px
-$font-size-4xl: 3.052rem;     // 49px
+$font-size-3xl: 2.75rem;      // 44px
+$font-size-4xl: 4rem;         // 64px
 
 $line-height-base: 1.6;
-$line-height-heading: 1.2;
+$line-height-heading: 1.05;
 
 // Spacing Scale (based on 8px)
 $space-xs: 0.5rem;   // 8px

@@ -3,44 +3,44 @@
 // Hero/About Section
 .hero {
   padding: calc($space-3xl + 80px) 0 $space-3xl;
-  text-align: center;
-  background: linear-gradient(135deg, $color-dark 0%, $color-dark-mid 100%);
-  color: $color-text-on-dark;
-  position: relative;
-  overflow: hidden;
+  text-align: left;
+  background-color: $color-yellow;
+  color: $color-black;
 
-  // Subtle grid pattern overlay
-  &::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image:
-      linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-    background-size: 60px 60px;
-    pointer-events: none;
+  .container {
+    max-width: 900px;
   }
 
   h1 {
-    margin-bottom: $space-sm;
-    color: $color-text-on-dark;
-    position: relative;
+    margin-bottom: $space-md;
+    color: $color-black;
+    font-size: $font-size-4xl;
   }
 
   .tagline {
-    font-size: $font-size-xl;
-    color: $color-accent-light;
-    margin-bottom: $space-lg;
-    position: relative;
+    font-size: $font-size-lg;
+    font-weight: 700;
+    color: $color-black;
+    margin-bottom: $space-xl;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.7;
   }
 
   .bio {
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 600px;
     font-size: $font-size-lg;
     line-height: 1.7;
-    color: $color-text-on-dark-muted;
-    position: relative;
+    color: $color-text-on-yellow;
+
+    a {
+      border-bottom-color: $color-black;
+
+      &:hover {
+        background-color: $color-black;
+        color: $color-yellow;
+      }
+    }
   }
 }
 
@@ -49,7 +49,7 @@
   background-color: $color-background;
 
   h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: $space-2xl;
   }
 }
@@ -62,15 +62,13 @@
 
 .project-card {
   background: $color-background;
-  border: 1px solid $color-border;
-  border-radius: 8px;
+  border: 2px solid $color-black;
   overflow: hidden;
   transition: transform $transition-base, box-shadow $transition-base;
-  border-top: 3px solid $color-accent;
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(74, 144, 196, 0.12), 0 4px 12px rgba(0, 0, 0, 0.05);
+    box-shadow: 8px 8px 0 $color-yellow;
   }
 
   .project-image {
@@ -97,6 +95,7 @@
     p {
       color: $color-text-light;
       margin-bottom: $space-md;
+      text-transform: none;
     }
   }
 
@@ -109,10 +108,11 @@
     .tag {
       font-size: $font-size-sm;
       padding: 0.25rem 0.75rem;
-      background-color: $color-accent-glow;
-      color: darken($color-accent, 10%);
-      border-radius: 12px;
-      font-weight: 500;
+      background-color: $color-yellow;
+      color: $color-black;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
     }
   }
 
@@ -122,12 +122,14 @@
 
     a {
       font-size: $font-size-sm;
-      font-weight: 500;
-      color: $color-accent;
-      border-bottom: 1px solid transparent;
+      font-weight: 700;
+      color: $color-black;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      border-bottom: 2px solid $color-yellow;
 
       &:hover {
-        border-bottom-color: $color-accent;
+        background-color: $color-yellow;
       }
     }
   }
@@ -136,7 +138,7 @@
 // Blog Section
 .section-blog {
   h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: $space-2xl;
   }
 
@@ -144,19 +146,18 @@
     display: block;
     text-align: center;
     margin-top: $space-xl;
-    font-weight: 500;
-    color: $color-accent;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 }
 
 .blog-list {
   max-width: 800px;
-  margin: 0 auto;
 }
 
 .blog-post-preview {
   padding: $space-lg 0;
-  border-bottom: 1px solid $color-border;
+  border-bottom: 2px solid $color-black;
 
   &:last-child {
     border-bottom: none;
@@ -167,6 +168,8 @@
     color: $color-text-light;
     display: block;
     margin-bottom: $space-sm;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   h3 {
@@ -177,7 +180,7 @@
       border: none;
 
       &:hover {
-        border-bottom: 1px solid $color-text;
+        background-color: $color-yellow;
       }
     }
   }
@@ -189,34 +192,31 @@
 
   .read-more {
     font-size: $font-size-sm;
-    font-weight: 500;
-    color: $color-accent;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 }
 
 // Contact Section
 .section-contact {
-  text-align: center;
-  background: linear-gradient(135deg, $color-dark-mid 0%, $color-dark 100%);
-  color: $color-text-on-dark;
+  text-align: left;
+  background-color: $color-black;
+  color: #ffffff;
 
   h2 {
     margin-bottom: $space-md;
-    color: $color-text-on-dark;
+    color: $color-yellow;
   }
 
   p {
     font-size: $font-size-lg;
-    color: $color-text-on-dark-muted;
+    color: rgba(255, 255, 255, 0.7);
     margin-bottom: $space-xl;
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .social-links {
     display: flex;
-    justify-content: center;
     gap: $space-lg;
     list-style: none;
     margin: 0;
@@ -224,13 +224,12 @@
     a {
       border: none;
       padding: $space-sm;
-      border-radius: 50%;
-      color: $color-text-on-dark-muted;
-      transition: background-color $transition-base, color $transition-base;
+      color: rgba(255, 255, 255, 0.7);
+      transition: color $transition-base;
 
       &:hover {
-        background-color: rgba(255, 255, 255, 0.1);
-        color: $color-accent-light;
+        background: none;
+        color: $color-yellow;
       }
 
       svg {
@@ -257,7 +256,7 @@
 
   .archive-item {
     padding: $space-md 0;
-    border-bottom: 1px solid $color-border;
+    border-bottom: 2px solid $color-black;
     display: flex;
     gap: $space-lg;
     align-items: baseline;
@@ -280,7 +279,7 @@
         border: none;
 
         &:hover {
-          border-bottom: 1px solid $color-text;
+          background-color: $color-yellow;
         }
       }
     }
@@ -313,9 +312,11 @@
 
       .category {
         padding: 0.25rem 0.75rem;
-        background-color: $color-accent-glow;
-        color: darken($color-accent, 10%);
-        border-radius: 12px;
+        background-color: $color-yellow;
+        color: $color-black;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: $font-size-sm;
       }
     }
   }
@@ -326,7 +327,6 @@
 
     img {
       margin: $space-xl 0;
-      border-radius: 4px;
     }
   }
 
@@ -334,7 +334,7 @@
     max-width: 800px;
     margin: $space-3xl auto 0;
     padding-top: $space-xl;
-    border-top: 1px solid $color-border;
+    border-top: 2px solid $color-black;
 
     .post-navigation {
       display: flex;
@@ -362,9 +362,9 @@
 
 // Footer
 .site-footer {
-  padding: $space-2xl 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  background-color: $color-dark;
+  padding: $space-lg 0;
+  border-top: 3px solid $color-yellow;
+  background-color: $color-black;
 
   .footer-content {
     display: flex;
@@ -374,7 +374,7 @@
 
   .footer-copyright {
     font-size: $font-size-sm;
-    color: $color-text-on-dark-muted;
+    color: rgba(255, 255, 255, 0.5);
     margin: 0;
   }
 
@@ -385,13 +385,12 @@
     a {
       border: none;
       padding: $space-xs;
-      border-radius: 50%;
-      color: $color-text-on-dark-muted;
-      transition: background-color $transition-base, color $transition-base;
+      color: rgba(255, 255, 255, 0.5);
+      transition: color $transition-base;
 
       &:hover {
-        background-color: rgba(255, 255, 255, 0.1);
-        color: $color-accent-light;
+        background: none;
+        color: $color-yellow;
       }
 
       svg {
